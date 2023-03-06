@@ -4,7 +4,4 @@ RUN pip install django==3.2
 COPY . .
 RUN pwd
 RUN python /todoApps/manage.py migrate
-CMD ["python","/todoApps/manage.py","runserver","0.0.0.0:8000"]
-~                                                                                                                                                             
-~                                                                                                                                                             
-~                                                                   
+CMD ["python","/todoApps/manage.py","runserver","0.0.0.0:8000"]                                                                                                                                                                                                                                                                                                                                                                            
